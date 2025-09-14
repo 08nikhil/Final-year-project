@@ -2,17 +2,17 @@
 # PS C:\Major_project> cd frontend
 # PS C:\Major_project\frontend> npm run dev
 
-
+#add neccessary imports
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import HTTPException
 from pydantic import BaseModel
 import numpy as np
-import pandas as pd # type: ignore
+import pandas as pd 
 from io import BytesIO
 from PIL import Image
 import tensorflow as tf
-import joblib # type: ignore
+import joblib 
 import logging
 
 # Initialize FastAPI app
